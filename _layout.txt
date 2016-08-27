@@ -1,0 +1,12 @@
+---------------------------|index|--------------------------
+=======header=======
+top-menu: sign-in/up(popup).
+main-menu: logo(left), home, men/women(dropdown), search-box, shopping cart.
+=======content=======
+slider,gallery, list products, sale products, brand.
+=======footer========
+ 5 column
+
+
+
+http://tretho.webtemplate.vn/

@@ -1,0 +1,507 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="script/jquery.min.js"></script>
+    <script src="script/bootstrap.js"></script>
+    <script src="script/animate.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript">
+		
+    </script>
+    
+    
+</head>
+
+<body>
+
+	 <div class="larg-img">
+            <img src="" id="show-large-img"/>
+            <img src="images/exit.png" id="exit"/>
+     </div>
+     
+	<div class="wrapper">
+    
+    	<div class="gallery-opacity"> </div>
+    
+    	<!-- header -->
+    
+    	<div class="top-menu">
+        	<ul>
+            	<li>	Đăng ký
+                <li>	Đăng nhập
+                <li>
+                <li>
+                <li>
+                <li>
+            </ul>
+        </div>
+        
+        <div class="box-menu">
+        
+        	<!-- logo -->
+        	<div class="space-left"> 
+        		<img src="images/logo.JPG" class="logo-top"/>
+            </div>
+            <!-- -------------------- -->
+            
+            
+            <!-- main menu -->
+        	<div class="main-menu">
+            	<ul>
+                    <li>Home 
+                    
+                    <li class="dropdown-men"> 	
+                    	Men 
+                        <ul class="dropdown-chil">
+                        	<li>	Quần 
+                            <li>	Áo
+                            <li>	Trang Sức
+                        </ul>
+                     
+                    <li class="dropdown-men"> 	
+                    	Women 
+                        <ul class="dropdown-chil">
+                        	<li>	Quần 
+                            <li>	Áo
+                            <li>	Trang Sức
+                        </ul>
+                        
+                    <li  style="width:30%; padding-top:1.3%;">
+                    	<input type="text" class="form-control" placeholder="Tìm kiếm..." />
+                    
+                    
+                    <li  style="width:12%">	<img src="images/cart.JPG"/>
+                    
+                </ul>
+                
+            </div>
+            <!-- -------------------- ------------------------------------->
+            
+        </div>
+        
+     	<!-- -------------------------------------------------------------------------------- -->  
+     	
+        
+        <!-- Content -->  
+        
+        <!-- slider -->
+        <img src="images/back.png" id="backSlide"/>
+   	 	<img src="images/next.png" id="nextSlide" />
+        <div class="box-slider">
+        
+            <div style="width:100%; height:36em;">
+            
+            	<div id="slider">
+                    <ul class="slides">
+                    	
+                        <li class="slide"> <img src="images/slide_1.jpg" style="width:100%; height:36em"/></li>
+                        <li class="slide"> <img src="images/slide_2.jpg" style="width:100%; height:36em"/></li>
+                        <li class="slide"> <img src="images/slide_3.jpg" style="width:100%; height:36em"/> </li>
+                        <li class="slide"> <img src="images/slide_4.jpg" style="width:100%; height:36em"/> </li>
+                        <li class="slide"> <img src="images/slide_1.jpg" style="width:100%; height:36em"/> </li>
+                    
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </div>
+        <!-- ------------------------------------------>
+         
+        <!-- gallery -->
+        
+        
+        <div class="box-gallery">
+        	
+            <div id="btn-Gallery-1"> </div>
+            
+           	<div id="btn-Gallery-2"> </div>
+            
+           	<div id="btn-Gallery-3"> </div>
+            
+         	<div id="gallery">
+            
+            	<div class="run_gallery" style="position:relative;">
+                
+                	<!-- frame 1 -->
+            		<div class="frameGallery" id="check_gallery_1">
+                    
+                    	<div class="box_gallery_1">
+                        
+                        	<img src="images/gallery_1.JPG" style="width:98%; height:98.5%;" class="img-gallery-4" id="img_1"/>
+                            
+                        </div>
+                        
+                        <div class="box_gallery_2">
+                        
+                        	<div class="ele-gallery-1">
+                            	<img src="images/gallery_2.JPG" class="img-gallery-1" id="img_2"/>
+                            </div>
+                            
+                            <div class="ele-gallery-2"> 
+                            	<img src="images/gallery_3.JPG" class="img-gallery-2" id="img_3"/>
+                            </div>
+                            
+                            <div class="ele-gallery-3"> 
+                            	<img src="images/gallery_4.JPG" class="img-gallery-3" id="img_4"/>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <!----------------------------->
+                    
+                    <!-- frame 2 -->
+                    <div class="frameGallery" id="check_gallery_2" style="position:absolute;display:none">
+                    
+                    	<div class="box_gallery_1">
+                        
+                        	<img src="images/brand1.JPG" style="width:98%; height:98.5%;" class="img-gallery-4" id="img_5"/>
+                            
+                        </div>
+                        
+                        <div class="box_gallery_2">
+                        
+                        	<div class="ele-gallery-1">
+                            	<img src="images/brand2.JPG" class="img-gallery-1" id="img_6"/>
+                            </div>
+                            
+                            <div class="ele-gallery-2"> 
+                            	<img src="images/brand3.JPG" class="img-gallery-2" id="img_7"/>
+                            </div>
+                            
+                            <div class="ele-gallery-3"> 
+                            	<img src="images/brand4.JPG" class="img-gallery-3" id="img_8"/>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <!-------------------------------->
+                    
+                    <!-- frame 3 -->
+                    <div class="frameGallery" id="check_gallery_3" style="position:absolute;display:none">
+                    
+                    	<div class="box_gallery_1">
+                        
+                        	<img src="images/brand5.JPG" style="width:98%; height:98.5%;" class="img-gallery-4" id="img_9"/>
+                            
+                        </div>
+                        
+                        <div class="box_gallery_2">
+                        
+                        	<div class="ele-gallery-1">
+                            	<img src="images/brand3.JPG" class="img-gallery-1" id="img_10"/>
+                            </div>
+                            
+                            <div class="ele-gallery-2"> 
+                            	<img src="images/brand1.JPG" class="img-gallery-2" id="img_11"/>
+                            </div>
+                            
+                            <div class="ele-gallery-3"> 
+                            	<img src="images/brand2.JPG" class="img-gallery-3" id="img_12"/>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    <!---------------------------->
+                    
+                    
+            	</div>
+                
+            </div>
+            
+        </div>
+        
+        <!-- ------------------------------------------>
+         
+        <!-- Product -->
+        
+        <div class="box-product" style="overflow:hidden; position:relative">
+        	<img src="images/next.png" style="float:right; width:3%; margin-right:2%" id="next"/>
+        	<img src="images/back.png" style="float:right; width:3%;" id="back"/>
+            
+         	<div class="title"  id="animate-title">
+            
+            	<div id="title_1"> Hàng Hot </div>
+                <div id="title_2" style="display:none; margin-left:100%"> Top Sale </div>
+                
+            </div>
+            
+            <div style="width:100%; height:2em; background-color:#F2F2F2;"> 
+            
+            	<div style="width:10px; background-color:#bdc3c7; height:10px;
+                border-radius:1000px; float:left; margin:0.5% 0.5% 0 45%" class="icon-1"> 
+                    
+                </div>
+                
+                <div style="width:10px; background-color:#2c3e50;
+                 height:10px; border-radius:1000px; float:left;margin:0.5% 0.5%" class="icon-2"> 
+                </div>
+                
+            </div>
+            
+            <div class="list-product" id="list_1">
+            
+            	<div class="product" style="margin-left:1%;">
+                    <img src="images/product1.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                    	<span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product2.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                    	<span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product3.png" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                    	<span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product4.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                    	<span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+               	<div class="product">
+                    <img src="images/product5.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                    	<span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+            </div>
+            
+            <!----------------------------->
+            <div class="list-product" style="position:absolute; display:none; margin-left:+100%" id="list_2">
+            
+            	<div class="product" style="margin-left:1%;">
+                    <img src="images/product1.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                    	<span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product2.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                    	<span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product3.png" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                    	<span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+              
+                
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        
+        
+        <!-- ------------------------------------------>
+        
+        <!-- SALE -->
+        <div class="box-sale">
+        
+        	<div class="icon-sale" style="padding:0 auto; text-align:center"> 
+            	<img src="images/sale.JPG" style="width:80%"/>
+            </div>
+            
+            <div class="list-sale-product">
+            	</br> </br>
+            	<div style="width:11%; height:54em; float:left">
+                    
+                </div>
+                
+                <div class="product">
+                    <img src="images/product4.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                        <span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product2.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                        <span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product1.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                        <span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product5.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                        <span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product1.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                        <span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product2.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                        <span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product4.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                        <span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+                <div class="product">
+                    <img src="images/product5.jpg" class="img-product"/>
+                    <p class="title-product"> BODY SUIT CHO TRẺ </p>
+                    <p class="title-product"> 
+                        <span class="sale-price"> 300,000đ </span>  <span class="price-product"> 249,000đ </span> 
+                    </p>
+                    <input type="button" value="GIỎ HÀNG" class="btn-product"/>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <!-- ------------------------------------------>
+        
+        <!-- Brand -->
+        <div class="brand">
+        	<img src="images/brand1.jpg" class="brand-img screen-1070"/>
+            <img src="images/brand2.jpg" class="brand-img"/>
+            <img src="images/brand3.jpg" class="brand-img"/>
+            <img src="images/brand4.jpg" class="brand-img"/>
+            <img src="images/brand5.jpg" class="brand-img"/>
+        	<img src="images/brand6.png" class="brand-img"/>
+        </div>
+        <!-- ------------------------------------------>
+        
+        <!-- About US -->
+        <div class="about-us">
+        	</br>
+            
+        	<div class="title-about"> VỀ SHOP HÀNG </div>
+            <div class="info-about"> Chuyên cung cấp quần áo, đồ dùng trẻ em nhập khẩu từ Mỹ. Cam kết hàng hóa được nhập 100% từ Mỹ với chất lượng đáp ứng các tiêu chuẩn đẹp, an toàn và giá cả phù hợp. 
+Nhận mua hàng hộ từ các website của Mỹ: www.amazon.com, www.ebay.com, www.cvs.com, www.walgreen.com, www.drugstore.com, www.macys.com... Và các website bán hàng tại Mỹ.  
+			</div>
+        </div>
+       	
+        <!-- ------------------------------------------>
+        
+        <!-- -------------------------------------------------------------------------------- -->  
+        
+        
+        <!-- Footer -->
+        
+        <div class="footer">
+        
+                <div class="col-xs-1"> </div>
+                
+            	<div class="col-xs-3">
+                	<p class="title-footer"> CHĂM SÓC KHÁCH HÀNG </p>
+                    <p> Hướng dẫn mua hàng </p>
+                    <p> Hướng dẫn thanh toán </p>
+                    <p> Chính sách bảo hành </p>
+                    <p> Chính sách thành viên VIP </p>
+                    
+                </div>
+                
+                <div class="col-xs-2">
+                	<p class="title-footer"> THÔNG TIN </p>
+                    <p> Hợp tác </p>
+                    <p> Mua hàng hộ </p>
+                    <p> Mở shop </p>
+                    <p> Thông tin sản phẩm mới </p>
+                </div>
+                
+                <div class="col-xs-3">
+                	<p class="title-footer"> STORES </p>
+                    <p> Thông tin liên hệ: 0983708794 - 0983047604  </p>
+                    <p> Email: nhuuchung@yahoo.com </br> hoặc nique.vudieuhien@gmail.com  </p>
+                    
+                </div>
+                
+                <div class="col-xs-2">
+                    <img src="images/logo.png" style="width:100%"/> </br> </br>
+                    <img src="images/payment.png" style="width:100%"/>
+                </div>
+                
+                <div class="col-xs-1">
+                	
+                	
+                </div>
+                
+        </div>
+        
+        <!-- -------------------------------------------------------------------------------- -->  
+     
+    </div>
+</body>
+</html>
